@@ -1,0 +1,17 @@
+.header2__container {
+  @include df;
+}
+.header2 {
+  padding: 22px 0px;
+}
+.header2__list {
+  @include df;
+  margin-left: 56px;
+  gap: 32px;
+}
+.header2__link {
+  @include link;
+}
+.header2__btn {
+  @include btn;
+}

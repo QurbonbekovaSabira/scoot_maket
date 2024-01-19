@@ -1,0 +1,31 @@
+.riding
+{
+    position: relative;
+    padding-top: 166px; 
+    
+}
+.riding__container{
+    padding-bottom: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.riding::after{
+    content: "";
+    width: 734px;
+    height: 450px;
+   position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../../img/ridingBeforoIKONS.svg);
+   right: 0px;
+   top: 19%;
+}
+.riding__title{
+  @include title;
+}
+.riding__text{
+   @include text;
+}
+.riding__btn{
+  @include btn;
+}

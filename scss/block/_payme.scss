@@ -1,0 +1,33 @@
+.payme{
+    position: relative;
+    padding-bottom: 200px;
+}
+.payme__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payme::after{
+content: "";
+width: 320px;
+height: 445px;
+background-repeat: no-repeat;
+background-image: url(../../img/paymeBeforIkon.svg);
+display: inline-block;
+position: absolute;
+right: 0px;
+top: -10%;
+}
+.payme__img{
+    position: relative;
+    margin-right:-90px;
+}
+.payme__title{
+    @include title;
+}
+.payme__text{
+    @include text;
+}
+.payme__btn{
+    @include btn;
+}

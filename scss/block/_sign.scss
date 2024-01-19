@@ -1,0 +1,34 @@
+.sign {
+  background-color: #495567;
+  padding: 102px 0px;
+  background-repeat: no-repeat;
+  background-image: url(/img/signBg.svg);
+  background-position: right bottom;
+}
+.sign__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign__title {
+  @include title;
+  color: #fff;
+}
+.sign__btn {
+  background-repeat: no-repeat;
+  background-image: url(/img/apStore.svg);
+  background-color: #e5ecf4;
+  border: none;
+  padding: 28px 15px;
+  width: 159px;
+  background-position: left 15px top 9px;
+  transition: all 0.4 ease;
+ cursor: pointer;
+}
+.footer__ikons{
+  cursor: pointer;
+}
+.sign__btn:last-child {
+  background-image: url(/img/googlePLay.svg);
+  width: 182px;
+}

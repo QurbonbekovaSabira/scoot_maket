@@ -1,0 +1,24 @@
+.jobs{
+    padding-bottom: 140px;
+    overflow: hidden;
+}
+.jobs__card{
+    padding: 32px 40px;
+    background-color: #F2F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.jobs__title{
+    @include subTitle;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.jobs__text{
+    @include text;
+    margin-bottom: 0;
+}
+.jobs__btn{
+    @include btn;
+}

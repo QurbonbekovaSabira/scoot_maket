@@ -1,0 +1,35 @@
+.city{
+   padding-top: 100px;
+    position: relative; 
+padding-bottom: 140px;
+}
+.city__container{
+    // padding-top: 160px; 
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.city__img{
+    position: relative;
+    margin-left: -35px;
+    z-index: -1;
+}
+.city::before{
+    content: "";
+    width: 810px;
+    height: 445px;
+  position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../../img/cityBeforeIKONS.svg);
+    left:0px;
+    top: 15%;
+}
+.city__title{
+    @include title;
+}
+.city__text{
+    @include text;
+}
+.city__btn{
+    @include btn;
+}

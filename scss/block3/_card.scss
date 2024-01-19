@@ -1,0 +1,29 @@
+.card{
+    padding-top: 130px;
+ padding-bottom: 151px;
+}
+.card__img{
+margin-bottom: 122px;
+}
+.card__content_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.card__title{
+    @include title;
+    margin-bottom: 0;
+    width: 351px;
+}
+.card__text{
+    @include text;
+    margin-bottom: 0;
+}
+.card__btn{
+    @include btn;
+}

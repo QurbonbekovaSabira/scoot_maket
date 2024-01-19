@@ -1,0 +1,16 @@
+.hero3{
+    background-image: url(/img/hero3Bg.png);
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.hero3__title{
+    @include title;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+}

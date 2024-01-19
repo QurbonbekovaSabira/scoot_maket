@@ -1,0 +1,25 @@
+.better {
+  margin-top: 250px;
+  padding-bottom: 120px;
+  position: relative;
+  &::after {
+    content: "";
+    width: 740px;
+    height: 445px;
+    background-image: url(/img/cityBeforeIKONS.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+  }
+}
+.better__container {
+  @include df;
+}
+.better__title {
+  @include title;
+}
+.better__text {
+  @include text;
+  margin-bottom: 0;
+}

@@ -1,0 +1,16 @@
+.hero2 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-repeat: no-repeat;
+  background-image: url(/img/hero2Bg.png);
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.hero2__title {
+  @include title;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}

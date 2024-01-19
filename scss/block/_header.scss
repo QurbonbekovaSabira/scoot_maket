@@ -1,0 +1,31 @@
+.header{
+    padding: 22px 0px;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__link{
+   @include link;
+   transition: all 0.4 ease;
+}
+// .header__link:hover{
+    
+// }
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    margin-left: 58px;
+}
+.header__item:not(:first-child)
+{
+    margin-left: 32px;
+}
+.header__btn{
+    @include btn;
+    transition: all 0.4 ease;
+}
